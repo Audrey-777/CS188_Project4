@@ -13,7 +13,7 @@
 
 
 import util
-from tracking.util import manhattanDistance
+from util import manhattanDistance
 from util import raiseNotDefined
 from game import Agent
 from game import Directions
@@ -168,3 +168,4 @@ class GreedyBustersAgent(BustersAgent):
         return best_action
 
         "*** END YOUR CODE HERE ***"
+
